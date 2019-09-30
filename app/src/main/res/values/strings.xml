@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Finotej</string>
+    
+    <!--Description Texts-->
+    <string name="first_description_text">Somos una empresa dedicada a la manufactura de no-tejidos, hilo de acrílico y <b>honeycomb de polipropileno.</b></string>
+    <string name="second_description_text">Nos distinguimos por trabajar bajo un esquema basado en tres pilares esenciales:</string>
+    <string name="first_description_element">Vanguardia Tecnológica</string>
+    <string name="second_description_element">Servicio</string>
+    <string name="third_description_element">Calidad</string>
+    <string name="third_description_text">Tenemos un compromiso constante con el medio ambiente. Fabricamos la mayor parte de nuestros productos a partir de materiales reciclados.\nSomos una Empresa Socialmente Responsable.</string>
+    <string name="click_here_to_continue">Toca para continuar...</string>
+
+
 </resources>
