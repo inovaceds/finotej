@@ -20,18 +20,32 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/activity_home_fynocore_logo_container">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHeight_percent="0.5">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/activity_home_fynocore_pp_container"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/fynocore_pp_menu_drawable"
+                app:layout_constraintBottom_toTopOf="@+id/activity_home_fynocore_ppsb_container"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/activity_home_fynocore_ppsb_container">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/fynocore_pp_title"
+                    android:textColor="@color/fynocore_text"
+                    android:textSize="@dimen/fynocore_menu_items_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -39,10 +53,23 @@
                 android:id="@+id/activity_home_fynocore_ppsb_container"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/fynocore_ppsb_menu_drawable"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/activity_home_fynocore_pp_container"
-                app:layout_constraintBottom_toBottomOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/activity_home_fynocore_pp_container">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/fynocore_ppsb_title"
+                    android:textColor="@color/fynocore_text"
+                    android:textSize="@dimen/fynocore_menu_items_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -52,16 +79,25 @@
             android:id="@+id/activity_home_fynocore_logo_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:background="@drawable/fynocore_menu_drawable"
+            android:elevation="10dp"
             app:layout_constraintBottom_toTopOf="@id/activity_home_fynocore_items_container"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:elevation="3dp"
-            android:background="@drawable/fynocore_menu_drawable">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="35dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo_fynocore"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

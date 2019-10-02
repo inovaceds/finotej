@@ -6,5 +6,22 @@
 
     <color name="splashBackgroundColor">#FFFFFF</color>
     <color name="primaryTextColor">#FFFFFF</color>
-    
+
+    <!--Fynocore Colors -->
+    <color name="fynocore_text">#FFFFFF</color>
+    <color name="fynocore_green">#C2D500</color>
+    <color name="fynocore_yellow">#F5CE3E</color>
+    <color name="fynocore_brown">#E0D0A6</color>
+
+    <!--Decopanel Colors -->
+    <color name="decopanel_purple">#270089</color>
+    <color name="decopanel_magent">#883C67</color>
+    <color name="decopanel_gray">#ACA199</color>
+    <color name="decopanel_text">#FFFFFF</color>
+
+    <!--Cimbracore Colors -->
+    <color name="cimbracore_orange">#EE7623</color>
+    <color name="cimbracore_red">#B2292E</color>
+    <color name="cimbracore_gray">#EAD9D3</color>
+    <color name="cimbracore_text">#FFFFFF</color>
 </resources>

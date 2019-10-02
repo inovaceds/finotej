@@ -9,6 +9,8 @@
     <string name="third_description_element">Calidad</string>
     <string name="third_description_text">Tenemos un compromiso constante con el medio ambiente. Fabricamos la mayor parte de nuestros productos a partir de materiales reciclados.\nSomos una Empresa Socialmente Responsable.</string>
     <string name="click_here_to_continue">Toca para continuar...</string>
+    <string name="fynocore_pp_title">Fynocore PP</string>
+    <string name="fynocore_ppsb_title">Fynocore PPSB</string>
 
 
 </resources>
