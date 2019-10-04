@@ -15,12 +15,21 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+        val firstBoldCimbracoreText = getText(R.string.cimbracore_description_first_bold)
+        val firstCimbracoreText = getText(R.string.cimbracore_description_text)
+
         activity_home_cimbracore_description_text.text = HtmlCompat.fromHtml(
-            getString(R.string.cibracore_description_text),
+            "<b>$firstBoldCimbracoreText</b><br>$firstCimbracoreText",
             HtmlCompat.FROM_HTML_MODE_LEGACY
         )
+
+        val firstDecopanelText = getText(R.string.decopanel_description_first)
+        val firstDecopanelBoldText = getText(R.string.decopanel_description_first_bold)
+        val secondDecopanelText = getText(R.string.decopanel_description_second)
+        val secondDecopanelBoldText = getText(R.string.decopanel_description_second_bold)
+
         activity_home_decopanel_description_text.text = HtmlCompat.fromHtml(
-            getString(R.string.decopanel_description),
+            "$firstDecopanelText <b>$firstDecopanelBoldText</b> $secondDecopanelText <b>$secondDecopanelBoldText</b>",
             HtmlCompat.FROM_HTML_MODE_LEGACY
         )
 
@@ -34,6 +43,27 @@ class HomeActivity : AppCompatActivity() {
             }
 
         }
+
+        activity_home_cimbracore_logo_container.setOnClickListener {
+
+            if (!activity_home_cimbracore_items_container.isVisible) {
+                activity_home_cimbracore_items_container.show()
+            } else {
+                activity_home_cimbracore_items_container.hide()
+            }
+
+        }
+
+        activity_home_decopanel_logo_container.setOnClickListener {
+
+            if (!activity_home_decopanel_items_container.isVisible) {
+                activity_home_decopanel_items_container.show()
+            } else {
+                activity_home_decopanel_items_container.hide()
+            }
+
+        }
+
 
     }
 }

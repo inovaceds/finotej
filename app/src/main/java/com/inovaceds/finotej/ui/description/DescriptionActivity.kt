@@ -2,8 +2,8 @@ package com.inovaceds.finotej.ui.description
 
 import android.os.Bundle
 import android.os.Handler
+import android.text.Html
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.text.HtmlCompat
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.extensions.show
 import com.inovaceds.finotej.ui.home.HomeActivity
@@ -16,10 +16,11 @@ class DescriptionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_description)
 
+        val firstDescriptionText = getText(R.string.first_description_text)
+        val firstDescriptionBoldText = getText(R.string.first_description_bold_text)
 
-        activity_description_main_text.text = HtmlCompat.fromHtml(
-            getString(R.string.first_description_text),
-            HtmlCompat.FROM_HTML_MODE_LEGACY
+        activity_description_main_text.text = Html.fromHtml(
+            "$firstDescriptionText <b>$firstDescriptionBoldText</b>"
         )
 
     }

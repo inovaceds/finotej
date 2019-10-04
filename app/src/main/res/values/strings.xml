@@ -2,7 +2,8 @@
     <string name="app_name">Finotej</string>
     
     <!--Description Texts-->
-    <string name="first_description_text">Somos una empresa dedicada a la manufactura de no-tejidos, hilo de acrílico y <b>honeycomb de polipropileno.</b></string>
+    <string name="first_description_text">Somos una empresa dedicada a la manufactura de no-tejidos, hilo de acrílico y </string>
+    <string name="first_description_bold_text">honeycomb de polipropileno.</string>
     <string name="second_description_text">Nos distinguimos por trabajar bajo un esquema basado en tres pilares esenciales:</string>
     <string name="first_description_element">Vanguardia Tecnológica</string>
     <string name="second_description_element">Servicio</string>
@@ -11,8 +12,12 @@
     <string name="click_here_to_continue">Toca para continuar...</string>
     <string name="fynocore_pp_title">Fynocore PP</string>
     <string name="fynocore_ppsb_title">Fynocore PPSB</string>
-    <string name="decopanel_description">Paneles acústicos y decorativos fabricados con fibras recicladas PET, ideales para proyectos de diseño, arquitectura e interiorismo que impliquen <b>creatividad, estética y funcionalidad.</b>\n\nDecopanel ®, es un panel versátil que  permite a los creativos del interiorismo diseñar espacios que brinden modernidad, confort, acústica y versatilidad.\n\n<b>Producto 100% Mexicano!  14 colores disponibles </b> </string>
-    <string name="cibracore_description_text"><b>UNA NUEVA ALTERNATIVA PARA CIMBRA APARENTE.</b>\n\nHemos desarrollado la cimbra ideal para las obras que requieran acabados aparentes, mayor cantidad de usos, menos merma por humedad, y sin uso de desmoldante o procesos de curado.</string>
+    <string name="decopanel_description_first">Paneles acústicos y decorativos fabricados con fibras recicladas PET, ideales para proyectos de diseño, arquitectura e interiorismo que impliquen </string>
+    <string name="decopanel_description_first_bold">creatividad, estética y funcionalidad.</string>
+    <string name="decopanel_description_second">\n\nDecopanel ®, es un panel versátil que  permite a los creativos del interiorismo diseñar espacios que brinden modernidad, confort, acústica y versatilidad.\n\n</string>
+    <string name="decopanel_description_second_bold">Producto 100% Mexicano!  14 colores disponibles.</string>
+    <string name="cimbracore_description_first_bold">UNA NUEVA ALTERNATIVA PARA CIMBRA APARENTE.</string>
+    <string name="cimbracore_description_text">\n\nHemos desarrollado la cimbra ideal para las obras que requieran acabados aparentes, mayor cantidad de usos, menos merma por humedad, y sin uso de desmoldante o procesos de curado.</string>
 
 
 </resources>

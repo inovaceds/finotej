@@ -11,6 +11,7 @@
         android:id="@+id/activity_home_fynocore_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:animateLayoutChanges="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/activity_home_cimbracore_container"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,11 +21,11 @@
             android:id="@+id/activity_home_fynocore_items_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            android:visibility="gone">
+            app:layout_constraintStart_toStartOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/activity_home_fynocore_pp_container"
@@ -91,9 +92,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="35dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/logo_fynocore"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -110,6 +110,7 @@
         android:id="@+id/activity_home_cimbracore_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:animateLayoutChanges="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/activity_home_decopanel_container"
         app:layout_constraintStart_toEndOf="@id/activity_home_fynocore_container"
@@ -119,11 +120,11 @@
             android:id="@+id/activity_home_cimbracore_items_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            android:visibility="gone">
+            app:layout_constraintStart_toStartOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/activity_home_cimbracore_description_container"
@@ -146,7 +147,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="20dp">
+                        android:padding="25dp">
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:id="@+id/activity_home_cimbracore_description_text"
@@ -159,10 +160,9 @@
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            tools:text="@string/cibracore_description_text" />
+                            tools:text="@string/cimbracore_description_text" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
                 </ScrollView>
 
@@ -199,6 +199,7 @@
             android:id="@+id/activity_home_cimbracore_logo_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:animateLayoutChanges="true"
             android:background="@drawable/cimbracore_menu_drawable"
             android:elevation="10dp"
             app:layout_constraintBottom_toTopOf="@id/activity_home_cimbracore_items_container"
@@ -207,9 +208,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="35dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/logo_cimbracore"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -226,6 +226,7 @@
         android:id="@+id/activity_home_decopanel_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:animateLayoutChanges="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/activity_home_cimbracore_container"
@@ -235,11 +236,11 @@
             android:id="@+id/activity_home_decopanel_items_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            android:visibility="gone">
+            app:layout_constraintStart_toStartOf="parent">
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -264,7 +265,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="20dp">
+                        android:padding="25dp">
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:id="@+id/activity_home_decopanel_description_text"
@@ -276,8 +277,7 @@
                             android:textSize="@dimen/description_text_size"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            tools:text="@string/decopanel_description" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -323,7 +323,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="35dp"
                 android:scaleType="centerInside"
