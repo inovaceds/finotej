@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
     tools:context=".ui.home.HomeActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,11 +20,11 @@
             android:id="@+id/activity_home_fynocore_items_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.5"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/activity_home_fynocore_pp_container"
@@ -121,14 +122,14 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.5"
-            app:layout_constraintStart_toStartOf="parent">
-
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/activity_home_cimbracore_description_container"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:background="@color/decopanel_gray"
+                android:background="@color/cimbracore_gray"
                 app:layout_constraintBottom_toTopOf="@+id/activity_home_cimbracore_success_cases_container"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -237,7 +238,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.5"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone">
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
