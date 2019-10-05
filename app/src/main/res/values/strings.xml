@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Finotej</string>
-    
+
     <!--Description Texts-->
     <string name="first_description_text">Somos una empresa dedicada a la manufactura de no-tejidos, hilo de acrílico y </string>
     <string name="first_description_bold_text">honeycomb de polipropileno.</string>
