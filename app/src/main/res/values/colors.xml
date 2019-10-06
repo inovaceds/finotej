@@ -12,6 +12,11 @@
     <color name="fynocore_green">#C2D500</color>
     <color name="fynocore_yellow">#F5CE3E</color>
     <color name="fynocore_brown">#E0D0A6</color>
+    <color name="fynocore_menu_text">#000000</color>
+    <color name="fynocore_menu_items_background">#ADFFFFFF</color>
+
+    <!--Fynotej Colors-->
+    <color name="fynotej_background">#2B6869</color>
 
     <!--Decopanel Colors -->
     <color name="decopanel_purple">#270089</color>

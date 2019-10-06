@@ -4,4 +4,11 @@
     <dimen name="description_element_size">18sp</dimen>
     <dimen name="fynocore_menu_items_text_size">40sp</dimen>
     <dimen name="success_cases_text">18sp</dimen>
+    <dimen name="fynocore_title_text_size">50sp</dimen>
+    <dimen name="fynocore_subtitle_text_size">30sp</dimen>
+
+    <dimen name="fynocore_fragment_panel_termination_radius">220dp</dimen>
+    <dimen name="fynocore_fragment_pp_radius">170dp</dimen>
+    <dimen name="fynocore_fragment_aplications_termination_radius">170dp</dimen>
+    <dimen name="fynocore_fragment_items_text_size">30sp</dimen>
 </resources>

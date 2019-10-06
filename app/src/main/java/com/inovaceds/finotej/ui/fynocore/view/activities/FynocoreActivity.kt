@@ -1,4 +1,4 @@
-package com.inovaceds.finotej.ui.fynocore.ui
+package com.inovaceds.finotej.ui.fynocore.view.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
