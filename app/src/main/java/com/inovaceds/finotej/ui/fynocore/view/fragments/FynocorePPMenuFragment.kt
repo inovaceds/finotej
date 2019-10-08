@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPActivity
 import kotlinx.android.synthetic.main.fragment_fynocore_ppmenu.*
+import kotlinx.android.synthetic.main.fragment_fynocore_ppterminations.*
 
 class FynocorePPMenuFragment : Fragment() {
 
@@ -26,6 +27,13 @@ class FynocorePPMenuFragment : Fragment() {
             (activity as FynocorePPActivity).changeOptionFragment(
                 FynocorePPDetailFragment(),
                 "FynocorePPDetail"
+            )
+        }
+
+        fragment_fynocore_panel_terminations_option.setOnClickListener {
+            (activity as FynocorePPActivity).changeOptionFragment(
+                FynocorePPTerminationsFragment(),
+                "FynocorePPPanelTerminations"
             )
         }
     }

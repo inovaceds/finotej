@@ -23,6 +23,7 @@
     <string name="fynocore_pp_description">Paneles con núcleo honeycomb, laminado con 2 caras de polipropileno natural.  Este panel en su composición puede incluir aditivos UV con garantía mínimo de 2 años y Retardante a la Flama V2 y V0</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fynocore_terminations_description"><![CDATA[<b>Aplicación de vinilos</b><br>Vinil Impreso<br>Vinil con textura<br><b>Impresiones temporales</b><br><b>Colores Sólidos</b><br>Gris]]></string>
 
 
 </resources>
