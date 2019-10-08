@@ -23,7 +23,7 @@
             android:name=".ui.home.HomeActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.FullScreen" />
-        <activity android:name=".ui.fynocore.view.activities.FynocoreActivity"
+        <activity android:name=".ui.fynocore.view.activities.FynocorePPActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.FullScreen"/>
         <activity

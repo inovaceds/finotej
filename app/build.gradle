@@ -36,6 +36,9 @@ dependencies {
     //Anko
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
 
+    implementation 'com.github.danylovolokh:video-player-manager:0.2.0'
+    implementation 'com.alphamovie.library:alpha-movie:1.2.1'
+
     // Retrofit2 libraries
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.google.code.gson:gson:2.8.5'

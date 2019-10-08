@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fynocore.view.activities.FynocoreActivity">
+    tools:context=".ui.fynocore.view.activities.FynocorePPActivity">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -139,9 +139,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <fragment
-        android:name="com.inovaceds.finotej.ui.fynocore.view.fragments.FynocorePPMenuFragment"
-        tools:layout="@layout/fragment_fynocore_ppmenu"
+    <FrameLayout
         android:id="@+id/activity_fynocore_fragment_container"
         android:layout_width="0dp"
         android:layout_height="0dp"

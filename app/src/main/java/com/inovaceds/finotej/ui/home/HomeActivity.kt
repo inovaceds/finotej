@@ -7,7 +7,7 @@ import androidx.core.view.isVisible
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.extensions.hide
 import com.inovaceds.finotej.extensions.show
-import com.inovaceds.finotej.ui.fynocore.view.activities.FynocoreActivity
+import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPActivity
 import kotlinx.android.synthetic.main.activity_home.*
 import org.jetbrains.anko.startActivity
 
@@ -67,8 +67,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         activity_home_fynocore_pp_container.setOnClickListener {
-
-            startActivity<FynocoreActivity>()
+            startActivity<FynocorePPActivity>()
 
         }
 
