@@ -66,6 +66,7 @@ class DescriptionActivity : AppCompatActivity() {
                 activity_description_touch_trigger.apply {
                     setOnClickListener {
                         startActivity<HomeActivity>()
+                        finish()
                     }
                 }
             },

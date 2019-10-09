@@ -22,5 +22,6 @@ class SplashActivity : AppCompatActivity() {
 
     private fun startDescriptionActivity(){
         startActivity<DescriptionActivity>()
+        finish()
     }
 }

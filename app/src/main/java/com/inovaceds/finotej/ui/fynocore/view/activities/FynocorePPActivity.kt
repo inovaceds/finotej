@@ -32,10 +32,10 @@ class FynocorePPActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
 
-        if (supportFragmentManager.backStackEntryCount > 1) {
+        if (supportFragmentManager.backStackEntryCount != 1) {
             supportFragmentManager.popBackStackImmediate()
         } else {
-            super.onBackPressed()
+            finish()
         }
 
     }
