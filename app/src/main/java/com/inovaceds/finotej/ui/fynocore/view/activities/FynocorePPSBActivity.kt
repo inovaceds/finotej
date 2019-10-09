@@ -1,20 +1,19 @@
 package com.inovaceds.finotej.ui.fynocore.view.activities
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.inovaceds.finotej.R
-import com.inovaceds.finotej.ui.fynocore.view.fragments.pp.FynocorePPMenuFragment
+import com.inovaceds.finotej.ui.fynocore.view.fragments.ppsb.FynocorePPSBMenuFragment
 
-class FynocorePPActivity : AppCompatActivity() {
-
-
+class FynocorePPSBActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_fynocore)
+        setContentView(R.layout.activity_fynocore_ppsb)
 
-        changeOptionFragment(FynocorePPMenuFragment(), "FynocoreMenuFragment")
+
+        changeOptionFragment(FynocorePPSBMenuFragment(), "FynocorePPSBMenuFragment")
     }
 
     fun changeOptionFragment(fragment: Fragment, tag: String) {

@@ -1,4 +1,4 @@
-package com.inovaceds.finotej.ui.fynocore.view.fragments.applications
+package com.inovaceds.finotej.ui.fynocore.view.fragments.pp.applications
 
 
 import android.os.Bundle
@@ -12,14 +12,14 @@ import com.inovaceds.finotej.R
 /**
  * A simple [Fragment] subclass.
  */
-class PPStandsFragment : Fragment() {
+class PPPosFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ppstands, container, false)
+        return inflater.inflate(R.layout.fragment_pppos, container, false)
     }
 
 

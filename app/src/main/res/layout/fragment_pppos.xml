@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.fynocore.view.fragments.applications.PPStandsFragment">
+    tools:context=".ui.fynocore.view.fragments.pp.applications.PPStandsFragment">
 
     <TextView
         android:id="@+id/fragment_pp_pos_title"

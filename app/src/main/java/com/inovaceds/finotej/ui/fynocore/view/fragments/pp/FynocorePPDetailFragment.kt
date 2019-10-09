@@ -1,4 +1,4 @@
-package com.inovaceds.finotej.ui.fynocore.view.fragments
+package com.inovaceds.finotej.ui.fynocore.view.fragments.pp
 
 
 import android.net.Uri
