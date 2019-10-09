@@ -19,7 +19,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:rotation="105"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="100dp"
         android:scaleType="fitStart"
         android:src="@drawable/panel_pp"
         app:layout_constraintBottom_toTopOf="parent"

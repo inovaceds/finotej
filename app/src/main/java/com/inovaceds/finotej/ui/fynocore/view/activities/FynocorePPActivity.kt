@@ -8,6 +8,8 @@ import com.inovaceds.finotej.ui.fynocore.view.fragments.FynocorePPMenuFragment
 
 class FynocorePPActivity : AppCompatActivity() {
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fynocore)

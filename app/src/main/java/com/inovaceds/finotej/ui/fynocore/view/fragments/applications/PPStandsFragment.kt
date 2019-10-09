@@ -1,0 +1,26 @@
+package com.inovaceds.finotej.ui.fynocore.view.fragments.applications
+
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+
+import com.inovaceds.finotej.R
+
+/**
+ * A simple [Fragment] subclass.
+ */
+class PPStandsFragment : Fragment() {
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_ppstands, container, false)
+    }
+
+
+}
