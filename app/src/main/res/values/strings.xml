@@ -20,9 +20,9 @@
     <string name="cimbracore_description_text">\n\nHemos desarrollado la cimbra ideal para las obras que requieran acabados aparentes, mayor cantidad de usos, menos merma por humedad, y sin uso de desmoldante o procesos de curado.</string>
 
 
-    <string name="fynocore_pp_description">Paneles con núcleo honeycomb, laminado con 2 caras de polipropileno natural.  Este panel en su composición puede incluir aditivos UV con garantía mínimo de 2 años y Retardante a la Flama V2 y V0</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fynocore_pp_description"><![CDATA[Paneles con núcleo honeycomb, laminado con 2 caras de polipropileno natural.  Este panel en su composición puede incluir aditivos UV con garantía mínimo de 2 años y Retardante a la Flama V2 y V0. <br><br><b>HERRAMIENTAS DE CORTE</b><br>30 mm: <ul><li>Sierra circular</li><li>CNC Router</li></ul><br>5 mm: <ul><li>CNC Router</li><li>CNC Navaja</li><br><br><b>ADHESIVOS</b><br><ul><li>Pegamentos de contacto base solvente</li><li>Pegamentos Hot Melt</li><li>Pegamentos Epóxicos</li><li>Pegamentos PUR</li></ul><i>De menos a mayor adhesion</i>]]></string>
+    <string name="fynocore_ppsb_description"><![CDATA[Paneles con núcleo honeycomb, laminado con 2 caras de polipropileno más <b>laminación de poliéster que garantiza y facilita la adhesión de otros sustratos al panel. <br><br><b>HERRAMIENTAS DE CORTE</b><br>30 mm: <ul><li>Sierra circular</li><li>CNC Router</li></ul><br>5 mm: <ul><li>CNC Router</li><li>CNC Navaja</li><br><br><b>ADHESIVOS</b><br><ul><li>Pegamentos de contacto base solvente</li><li>Pegamentos Hot Melt</li><li>Pegamentos Epóxicos</li><li>Pegamentos PUR</li></ul><i>De menos a mayor adhesion</i>]]></string>
+
     <string name="fynocore_terminations_description"><![CDATA[<b>Aplicación de vinilos</b><br>Vinil Impreso<br>Vinil con textura<br><b>Impresiones temporales</b><br><b>Colores Sólidos</b><br>Gris]]></string>
 
 

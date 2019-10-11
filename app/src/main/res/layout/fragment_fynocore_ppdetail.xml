@@ -123,31 +123,52 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <TextView
-        android:id="@+id/fragment_fynocore_detail_description_text"
+    <ScrollView
+        android:id="@+id/fragment_fynocore_detail_description_text_scrollview"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="45dp"
-        android:fontFamily="@font/roboto_light"
-        android:text="@string/fynocore_pp_description"
-        android:textColor="@color/fynocore_menu_text"
-        android:textSize="@dimen/fynocore_fragment_selected_items_text_size"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_logo_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_detail_pp_option"
-        app:layout_constraintWidth_percent="0.4" />
+        app:layout_constraintWidth_percent="0.4">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <com.alphamovie.lib.AlphaMovieView
+            <TextView
+                android:id="@+id/fragment_fynocore_detail_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/fynocore_pp_description"
+                android:textColor="@color/fynocore_menu_text"
+                android:textSize="@dimen/fynocore_fragment_selected_items_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <ImageView
         android:id="@+id/fragment_fynocore_detail_video_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
         android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_detail_description_text"
+        app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_detail_description_text_scrollview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_detail_menu_panel_image" />
 
