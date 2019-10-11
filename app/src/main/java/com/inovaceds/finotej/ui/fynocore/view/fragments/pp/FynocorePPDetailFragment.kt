@@ -38,7 +38,7 @@ class FynocorePPDetailFragment : Fragment() {
 
         }
 
-        fragment_fynocore_detail_video_view?.load(R.drawable.gif_ppsb,imageLoader)
+        fragment_fynocore_detail_video_view?.load(R.drawable.pp,imageLoader)
 
         /*val videoUri = Uri.parse("android.resource://${context?.packageName}/${R.raw.panel_pp_video}")
         fragment_fynocore_detail_video_view.setVideoFromUri(context,videoUri)

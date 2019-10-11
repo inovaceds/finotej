@@ -42,7 +42,7 @@ class FynocorePPSBDetailFragment : Fragment() {
             crossfade(1000)
         }
 
-        fragment_fynocore_detail_video_view?.load(R.drawable.gif_ppsb, imageLoader)
+        fragment_fynocore_detail_video_view?.load(R.drawable.ppsb, imageLoader)
 
 
     }
