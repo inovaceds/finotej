@@ -18,8 +18,8 @@
         android:id="@+id/fragment_fynocore_terminations_menu_panel_image"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:rotation="105"
         android:layout_marginStart="100dp"
+        android:rotation="105"
         android:scaleType="fitStart"
         android:src="@drawable/panel_pp"
         app:layout_constraintBottom_toTopOf="parent"
@@ -124,31 +124,49 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <TextView
-        android:id="@+id/fragment_fynocore_terminations_description_text"
+    <ScrollView
+        android:id="@+id/fragment_fynocore_terminations_description_text_scroll_view"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="45dp"
-        android:fontFamily="@font/roboto_light"
-        android:text="@string/fynocore_terminations_description"
-        android:textColor="@color/fynocore_menu_text"
-        android:textSize="@dimen/fynocore_fragment_selected_items_text_size"
         app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_logo_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_terminations_panel_terminations_option"
-        app:layout_constraintWidth_percent="0.4" />
+        app:layout_constraintWidth_percent="0.4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fragment_fynocore_terminations_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/fynocore_terminations_description"
+                android:textColor="@color/fynocore_menu_text"
+                android:textSize="@dimen/fynocore_fragment_selected_items_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 
     <com.alphamovie.lib.AlphaMovieView
         android:id="@+id/fragment_fynocore_terminations_video_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
         android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_terminations_description_text"
+        app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_terminations_description_text_scroll_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_terminations_menu_panel_image" />
 

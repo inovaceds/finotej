@@ -11,7 +11,7 @@
     <dimen name="fynocore_fragment_pp_radius">170dp</dimen>
     <dimen name="fynocore_fragment_applications_termination_radius">160dp</dimen>
     <dimen name="fynocore_fragment_items_text_size">30sp</dimen>
-    <dimen name="fynocore_fragment_selected_items_text_size">35sp</dimen>
+    <dimen name="fynocore_fragment_selected_items_text_size">20sp</dimen>
 
     <dimen name="fynocore_fragment_detail_panel_termination_radius">220dp</dimen>
     <dimen name="fynocore_fragment_detail_pp_radius">130dp</dimen>
