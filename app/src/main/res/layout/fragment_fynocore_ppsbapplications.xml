@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/fondo_fynocore_pp_alpha" />
+        android:src="@drawable/fondo_fynocore_ppsb" />
 
 
     <ImageView
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:rotation="65"
         android:scaleType="fitCenter"
-        android:src="@drawable/panel_pp"
+        android:src="@drawable/panel_ppsb"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,7 +29,7 @@
         android:id="@+id/fragment_fynocore_applications_panel_terminations_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fynocore_pp_menu_items_background"
+        android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_applications_menu_panel_image"
         app:layout_constraintCircleAngle="100"
@@ -57,7 +57,7 @@
         android:id="@+id/fragment_fynocore_applications_pp_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fynocore_pp_menu_items_background"
+        android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_applications_menu_panel_image"
         app:layout_constraintCircleAngle="145"
@@ -72,7 +72,7 @@
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/roboto_light"
-            android:text="Fynocore PP "
+            android:text="Fynocore PPSB "
             android:textColor="@color/fynocore_menu_text"
             android:textSize="@dimen/fynocore_fragment_items_text_size"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +87,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/marcadosr_mas"
+        android:src="@drawable/mas_ppsb"
         app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_applications_pp_option"
         app:layout_constraintStart_toEndOf="@id/fragment_fynocore_applications_pp_option"
         app:layout_constraintTop_toTopOf="@id/fragment_fynocore_applications_pp_option" />
@@ -96,7 +96,7 @@
         android:id="@+id/fragment_fynocore_aplications_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fynocore_pp_menu_items_background"
+        android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_applications_menu_panel_image"
         app:layout_constraintCircleAngle="205"
@@ -127,7 +127,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_applications_pp_option"/>
+        app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_aplications_option"/>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/fragment_fynocore_applications_view_pager_dots"
@@ -147,12 +147,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
-        android:src="@drawable/boton_enviar_info"
+        android:src="@drawable/boton_enviar_info_ppsb"
         app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_logo_image"
         app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_logo_image"
         app:layout_constraintTop_toTopOf="@id/fragment_fynocore_logo_image" />

@@ -17,14 +17,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/fragment_pp_exhibitor_image"
         android:layout_marginStart="25dp"/>
 
     <ImageView
         android:layout_width="235dp"
-        android:layout_height="450dp"
+        android:layout_height="350dp"
         android:layout_marginTop="170dp"
         android:layout_marginEnd="170dp"
-        android:scaleType="centerInside"
+        android:scaleType="centerCrop"
         android:src="@drawable/cuadro_amarillo"
         app:layout_constraintBottom_toBottomOf="@id/fragment_pp_exhibitor_image"
         app:layout_constraintEnd_toEndOf="@id/fragment_pp_exhibitor_image"

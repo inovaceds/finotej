@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/fondo_fynocore_pp_alpha" />
+        android:src="@drawable/fondo_fynocore_ppsb" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -92,14 +92,6 @@
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/marcadosr_mas"
-            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_pp_option"
-            app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_pp_option"
-            app:layout_constraintTop_toTopOf="@id/fragment_fynocore_pp_option"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/fragment_fynocore_aplications_option"

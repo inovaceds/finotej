@@ -9,7 +9,7 @@ import android.view.ViewGroup
 
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPSBActivity
-import kotlinx.android.synthetic.main.fragment_ppsbmenu.*
+import kotlinx.android.synthetic.main.fragment_fynocore_ppsbmenu.*
 
 /**
  * A simple [Fragment] subclass.
@@ -21,7 +21,7 @@ class FynocorePPSBMenuFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ppsbmenu, container, false)
+        return inflater.inflate(R.layout.fragment_fynocore_ppsbmenu, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
