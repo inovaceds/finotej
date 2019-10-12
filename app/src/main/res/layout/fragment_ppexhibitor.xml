@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fynocore.view.fragments.pp.applications.PPStandsFragment">
+    tools:context=".ui.fynocore.view.fragments.pp.applications.PPExhibitorFragment">
 
     <TextView
-        android:id="@+id/fragment_pp_stands_title"
+        android:id="@+id/fragment_pp_exhibitor_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_medium"
-        android:text="Montaje de Stands"
+        android:text="Exhibidor"
         android:textColor="@color/fynocore_menu_text"
         android:textSize="@dimen/fynocore_fragment_items_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,25 +20,26 @@
         android:layout_marginStart="25dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="235dp"
+        android:layout_height="450dp"
         android:layout_marginTop="170dp"
         android:layout_marginEnd="170dp"
+        android:scaleType="centerInside"
         android:src="@drawable/cuadro_amarillo"
-        app:layout_constraintBottom_toBottomOf="@id/fragment_pp_stands_image"
-        app:layout_constraintEnd_toEndOf="@id/fragment_pp_stands_image"
-        app:layout_constraintStart_toStartOf="@id/fragment_pp_stands_image"
-        app:layout_constraintTop_toTopOf="@id/fragment_pp_stands_image" />
+        app:layout_constraintBottom_toBottomOf="@id/fragment_pp_exhibitor_image"
+        app:layout_constraintEnd_toEndOf="@id/fragment_pp_exhibitor_image"
+        app:layout_constraintStart_toStartOf="@id/fragment_pp_exhibitor_image"
+        app:layout_constraintTop_toTopOf="@id/fragment_pp_exhibitor_image" />
 
     <ImageView
-        android:id="@+id/fragment_pp_stands_image"
+        android:id="@+id/fragment_pp_exhibitor_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/pp_stand"
+        android:src="@drawable/pp_exhibitor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/fragment_pp_stands_title"
+        app:layout_constraintStart_toEndOf="@id/fragment_pp_exhibitor_title"
         app:layout_constraintTop_toTopOf="parent" />
 
 
