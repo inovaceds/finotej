@@ -135,7 +135,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_applications_view_pager"
-        app:tabBackground="@drawable/tab_pp_selector"
+        app:tabBackground="@drawable/tab_ppsb_selector"
         app:tabGravity="center"
         app:tabIndicatorHeight="0dp"/>
 
