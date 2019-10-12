@@ -16,14 +16,16 @@
 
     <ImageView
         android:id="@+id/fragment_fynocore_detail_menu_panel_image"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="-150dp"
         android:rotation="65"
         android:scaleType="fitCenter"
         android:src="@drawable/panel_ppsb"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="100dp"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/fragment_fynocore_detail_panel_terminations_option"
@@ -32,9 +34,9 @@
         android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_detail_menu_panel_image"
-        app:layout_constraintCircleAngle="100"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_detail_panel_termination_radius"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="@dimen/fynocore_ppsb_fragment_detail_panel_termination_radius"
+        app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_detail_menu_panel_image">
 
         <TextView
             android:layout_width="wrap_content"
@@ -60,7 +62,7 @@
         android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_detail_menu_panel_image"
-        app:layout_constraintCircleAngle="145"
+        app:layout_constraintCircleAngle="175"
         app:layout_constraintCircleRadius="@dimen/fynocore_fragment_detail_pp_radius"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -72,7 +74,7 @@
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/roboto_light"
-            android:text="Fynocore PP "
+            android:text="Fynocore PPSB "
             android:textColor="@color/fynocore_menu_text"
             android:textSize="@dimen/fynocore_fragment_selected_items_text_size"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -100,7 +102,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_detail_menu_panel_image"
         app:layout_constraintCircleAngle="215"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_detail_applications_termination_radius"
+        app:layout_constraintCircleRadius="@dimen/fynocore_ppsb_fragment_detail_applications_termination_radius"
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
@@ -149,10 +151,10 @@
                 android:text="@string/fynocore_pp_description"
                 android:textColor="@color/fynocore_menu_text"
                 android:textSize="@dimen/fynocore_fragment_selected_items_text_size"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -162,10 +164,10 @@
         android:id="@+id/fragment_fynocore_detail_video_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
         android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_detail_description_text_scrollview"
