@@ -134,7 +134,8 @@
         app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_logo_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_detail_pp_option"
-        app:layout_constraintWidth_percent="0.4">
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.4">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

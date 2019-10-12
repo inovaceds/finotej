@@ -93,14 +93,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/marcadosr_mas"
-            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_pp_option"
-            app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_pp_option"
-            app:layout_constraintTop_toTopOf="@id/fragment_fynocore_pp_option"/>
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/fragment_fynocore_aplications_option"
             android:layout_width="wrap_content"
