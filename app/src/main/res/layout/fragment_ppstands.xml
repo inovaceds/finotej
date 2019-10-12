@@ -20,22 +20,11 @@
         android:layout_marginStart="25dp"/>
 
     <ImageView
-        android:layout_width="235dp"
-        android:layout_height="350dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="200dp"
-        android:src="@drawable/cuadro_amarillo"
-        app:layout_constraintBottom_toBottomOf="@id/fragment_pp_stands_image"
-        app:layout_constraintEnd_toEndOf="@id/fragment_pp_stands_image"
-        app:layout_constraintStart_toStartOf="@id/fragment_pp_stands_image"
-        app:layout_constraintTop_toTopOf="@id/fragment_pp_stands_image" />
-
-    <ImageView
         android:id="@+id/fragment_pp_stands_image"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/pp_stand"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/pp_stands"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/fragment_pp_stands_title"

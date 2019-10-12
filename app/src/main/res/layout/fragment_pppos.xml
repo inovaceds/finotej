@@ -20,17 +20,6 @@
         android:layout_marginStart="50dp"/>
 
     <ImageView
-        android:layout_width="235dp"
-        android:layout_height="350dp"
-        android:src="@drawable/cuadro_amarillo"
-        app:layout_constraintTop_toTopOf="@id/fragment_pp_pos_image"
-        app:layout_constraintStart_toStartOf="@id/fragment_pp_pos_image"
-        app:layout_constraintBottom_toBottomOf="@id/fragment_pp_pos_image"
-        app:layout_constraintEnd_toEndOf="@id/fragment_pp_pos_image"
-        android:layout_marginEnd="170dp"
-        android:layout_marginTop="170dp"/>
-
-    <ImageView
         android:id="@+id/fragment_pp_pos_image"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
