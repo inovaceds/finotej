@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.extensions.hide
+import com.inovaceds.finotej.extensions.hideKeyboard
 import com.inovaceds.finotej.extensions.show
 import com.inovaceds.finotej.ui.dialog.presentation.SendInformationPresenter
 import com.inovaceds.finotej.ui.dialog.viewModel.SendInformationViewModel
@@ -73,6 +74,8 @@ class SendInformationDialogFragment : DialogFragment(), SendInformationViewModel
 
         fragment_send_information_send.setOnClickListener {
 
+            context?.hideKeyboard(it)
+
             if (fragment_send_information_name_field.text.isEmpty()) {
                 fragment_send_information_name_field.error = "Debes ingresar un nombre"
                 return@setOnClickListener
@@ -119,8 +122,8 @@ class SendInformationDialogFragment : DialogFragment(), SendInformationViewModel
         Snackbar.make(
             fragment_send_information_main_container,
             "Ha ocurrido un error intenta nuevamente",
-            Snackbar.LENGTH_INDEFINITE
-        )
+            Snackbar.LENGTH_LONG
+        ).show()
         fragment_send_information_progress_bar.hide()
         fragment_send_information_items_container.show()
         fragment_send_information_close_icon.show()
