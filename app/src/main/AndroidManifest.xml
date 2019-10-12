@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.fynocore.view.activities.FynocorePPSBActivity"
+        <activity
+            android:name=".ui.cimbracore.view.activities.CimbracoreActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.FullScreen"/>
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".ui.fynocore.view.activities.FynocorePPSBActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name=".ui.splash.SplashActivity"
             android:screenOrientation="landscape"

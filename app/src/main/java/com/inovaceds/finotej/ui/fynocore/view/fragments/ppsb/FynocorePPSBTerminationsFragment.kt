@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import androidx.core.text.HtmlCompat
 
 import com.inovaceds.finotej.R
+import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
 import com.inovaceds.finotej.ui.fynocore.view.adapters.PPSBTerminationsPagerAdapter
 import kotlinx.android.synthetic.main.fragment_fynocore_ppsbterminations.*
 
@@ -42,6 +44,16 @@ class FynocorePPSBTerminationsFragment : Fragment() {
             fragment_fynocore_terminations_view_pager,
             true
         )
+
+
+        fragment_fynocore_send_information.setOnClickListener {
+            val dialog = SendInformationDialogFragment.getInstance(
+                DataConfiguration.FYNOCORE_PRODUCT,
+                DataConfiguration.PPSB_DOCUMENT)
+
+            dialog.isCancelable = false
+            dialog.show(childFragmentManager,"SendInformationDialog")
+        }
 
     }
 

@@ -12,7 +12,9 @@ import coil.api.load
 import coil.decode.GifDecoder
 
 import com.inovaceds.finotej.R
-import kotlinx.android.synthetic.main.fragment_fynocore_ppdetail.*
+import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
+import kotlinx.android.synthetic.main.fragment_fynocore_ppsbdetail.*
 
 /**
  * A simple [Fragment] subclass.
@@ -44,7 +46,14 @@ class FynocorePPSBDetailFragment : Fragment() {
 
         fragment_fynocore_detail_video_view?.load(R.drawable.ppsb, imageLoader)
 
+        fragment_fynocore_send_information.setOnClickListener {
+            val dialog = SendInformationDialogFragment.getInstance(
+                DataConfiguration.FYNOCORE_PRODUCT,
+                DataConfiguration.PPSB_DOCUMENT)
 
+            dialog.isCancelable = false
+            dialog.show(childFragmentManager,"SendInformationDialog")
+        }
     }
 
 }

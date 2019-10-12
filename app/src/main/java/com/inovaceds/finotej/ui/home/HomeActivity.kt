@@ -7,6 +7,9 @@ import androidx.core.view.isVisible
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.extensions.hide
 import com.inovaceds.finotej.extensions.show
+import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.cimbracore.view.activities.CimbracoreActivity
+import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
 import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPActivity
 import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPSBActivity
 import kotlinx.android.synthetic.main.activity_home.*
@@ -74,6 +77,19 @@ class HomeActivity : AppCompatActivity() {
 
         activity_home_fynocore_ppsb_container.setOnClickListener {
             startActivity<FynocorePPSBActivity>()
+        }
+
+        activity_home_cimbracore_success_cases_container.setOnClickListener {
+            startActivity<CimbracoreActivity>()
+        }
+
+        activity_home_decopanel_success_cases_container.setOnClickListener {
+            val dialog = SendInformationDialogFragment.getInstance(
+                DataConfiguration.DECOPANEL_PRODUCT,
+                DataConfiguration.DECOPANEL_DOCUMENT)
+
+            dialog.isCancelable = false
+            dialog.show(supportFragmentManager,"SendInformationDialog")
         }
 
 

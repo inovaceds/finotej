@@ -10,6 +10,8 @@ import android.view.ViewGroup
 import androidx.core.text.HtmlCompat
 
 import com.inovaceds.finotej.R
+import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
 import kotlinx.android.synthetic.main.fragment_fynocore_ppterminations.*
 
 
@@ -36,6 +38,15 @@ class FynocorePPTerminationsFragment : Fragment() {
             getString(R.string.fynocore_terminations_description),
             HtmlCompat.FROM_HTML_MODE_LEGACY
         )
+
+        fragment_fynocore_send_information.setOnClickListener {
+            val dialog = SendInformationDialogFragment.getInstance(
+                DataConfiguration.FYNOCORE_PRODUCT,
+                DataConfiguration.PP_DOCUMENT)
+
+            dialog.isCancelable = false
+            dialog.show(childFragmentManager,"SendInformationDialog")
+        }
     }
 
 

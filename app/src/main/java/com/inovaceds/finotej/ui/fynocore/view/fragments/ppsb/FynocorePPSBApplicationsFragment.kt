@@ -8,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.inovaceds.finotej.R
+import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
 import com.inovaceds.finotej.ui.fynocore.view.adapters.PPSBApplicationsPagerAdapter
 import kotlinx.android.synthetic.main.fragment_fynocore_ppsbapplications.*
 
@@ -30,6 +32,16 @@ class FynocorePPSBApplicationsFragment : Fragment() {
         fragment_fynocore_applications_view_pager.adapter = PPSBApplicationsPagerAdapter(childFragmentManager)
 
         fragment_fynocore_applications_view_pager_dots.setupWithViewPager(fragment_fynocore_applications_view_pager)
+
+
+        fragment_fynocore_send_information.setOnClickListener {
+            val dialog = SendInformationDialogFragment.getInstance(
+                DataConfiguration.FYNOCORE_PRODUCT,
+                DataConfiguration.PPSB_DOCUMENT)
+
+            dialog.isCancelable = false
+            dialog.show(childFragmentManager,"SendInformationDialog")
+        }
     }
 
 }

@@ -12,6 +12,8 @@ import coil.ImageLoader
 import coil.api.load
 import coil.decode.GifDecoder
 import com.inovaceds.finotej.R
+import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
 import kotlinx.android.synthetic.main.fragment_fynocore_ppdetail.*
 
 
@@ -54,6 +56,15 @@ class FynocorePPDetailFragment : Fragment() {
 
         fragment_fynocore_detail_video_view.start()*/
 
+
+        fragment_fynocore_send_information.setOnClickListener {
+            val dialog = SendInformationDialogFragment.getInstance(
+                DataConfiguration.FYNOCORE_PRODUCT,
+                DataConfiguration.PP_DOCUMENT)
+
+            dialog.isCancelable = false
+            dialog.show(childFragmentManager,"SendInformationDialog")
+        }
     }
 
 
