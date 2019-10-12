@@ -23,7 +23,8 @@
         android:src="@drawable/panel_ppsb"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="100dp"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/fragment_fynocore_applications_panel_terminations_option"
@@ -32,9 +33,9 @@
         android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_applications_menu_panel_image"
-        app:layout_constraintCircleAngle="100"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_applications_panel_termination_radius"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="@dimen/fynocore_ppsb_fragment_detail_panel_termination_radius"
+        app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_applications_menu_panel_image">
 
         <TextView
             android:layout_width="wrap_content"
@@ -60,8 +61,8 @@
         android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_applications_menu_panel_image"
-        app:layout_constraintCircleAngle="145"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_applications_pp_radius"
+        app:layout_constraintCircleAngle="175"
+        app:layout_constraintCircleRadius="@dimen/fynocore_ppsb_fragment_detail_pp_radius"
         app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
@@ -99,8 +100,8 @@
         android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_applications_menu_panel_image"
-        app:layout_constraintCircleAngle="205"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_applications_applications_termination_radius"
+        app:layout_constraintCircleAngle="215"
+        app:layout_constraintCircleRadius="@dimen/fynocore_ppsb_fragment_detail_applications_termination_radius"
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView

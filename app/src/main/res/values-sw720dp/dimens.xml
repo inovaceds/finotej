@@ -28,6 +28,6 @@
 
 
     <dimen name="fynocore_ppsb_fragment_detail_panel_termination_radius">290dp</dimen>
-    <dimen name="fynocore_ppsb_fragment_detail_pp_radius">200dp</dimen>
+    <dimen name="fynocore_ppsb_fragment_detail_pp_radius">250dp</dimen>
     <dimen name="fynocore_ppsb_fragment_detail_applications_termination_radius">440dp</dimen>
 </resources>
