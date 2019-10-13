@@ -74,6 +74,8 @@ dependencies {
     implementation 'com.github.danylovolokh:video-player-manager:0.2.0'
     implementation 'com.alphamovie.library:alpha-movie:1.2.1'
 
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
     //Coil
     implementation "io.coil-kt:coil:0.7.0"
     implementation "io.coil-kt:coil-gif:0.7.0"

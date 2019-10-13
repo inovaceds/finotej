@@ -9,9 +9,9 @@ import com.inovaceds.finotej.extensions.hide
 import com.inovaceds.finotej.extensions.show
 import com.inovaceds.finotej.net.DataConfiguration
 import com.inovaceds.finotej.ui.cimbracore.view.activities.CimbracoreActivity
-import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
 import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPActivity
 import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPSBActivity
+import com.inovaceds.finotej.ui.pdfPreview.PDFPreviewActivity
 import kotlinx.android.synthetic.main.activity_home.*
 import org.jetbrains.anko.startActivity
 
@@ -84,12 +84,10 @@ class HomeActivity : AppCompatActivity() {
         }
 
         activity_home_decopanel_success_cases_container.setOnClickListener {
-            val dialog = SendInformationDialogFragment.getInstance(
-                DataConfiguration.DECOPANEL_PRODUCT,
-                DataConfiguration.DECOPANEL_DOCUMENT)
-
-            dialog.isCancelable = false
-            dialog.show(supportFragmentManager,"SendInformationDialog")
+            startActivity<PDFPreviewActivity>(
+                PDFPreviewActivity.DOCUMENT_KEY to DataConfiguration.DECOPANEL_DOCUMENT,
+                PDFPreviewActivity.PRODUCT_KEY to DataConfiguration.DECOPANEL_PRODUCT
+            )
         }
 
 

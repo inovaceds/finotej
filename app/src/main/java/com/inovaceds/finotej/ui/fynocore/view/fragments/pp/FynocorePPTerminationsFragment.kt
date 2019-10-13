@@ -3,16 +3,16 @@ package com.inovaceds.finotej.ui.fynocore.view.fragments.pp
 
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.text.HtmlCompat
-
+import androidx.fragment.app.Fragment
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.net.DataConfiguration
-import com.inovaceds.finotej.ui.dialog.view.SendInformationDialogFragment
+import com.inovaceds.finotej.ui.pdfPreview.PDFPreviewActivity
 import kotlinx.android.synthetic.main.fragment_fynocore_ppterminations.*
+import org.jetbrains.anko.startActivity
 
 
 class FynocorePPTerminationsFragment : Fragment() {
@@ -40,12 +40,10 @@ class FynocorePPTerminationsFragment : Fragment() {
         )
 
         fragment_fynocore_send_information.setOnClickListener {
-            val dialog = SendInformationDialogFragment.getInstance(
-                DataConfiguration.FYNOCORE_PRODUCT,
-                DataConfiguration.PP_DOCUMENT)
-
-            dialog.isCancelable = false
-            dialog.show(childFragmentManager,"SendInformationDialog")
+            context?.startActivity<PDFPreviewActivity>(
+                PDFPreviewActivity.DOCUMENT_KEY to DataConfiguration.PP_DOCUMENT,
+                PDFPreviewActivity.PRODUCT_KEY to DataConfiguration.FYNOCORE_PRODUCT
+            )
         }
     }
 

@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ui.pdfPreview.PDFPreviewActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
             android:name=".ui.cimbracore.view.activities.CimbracoreActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.FullScreen" />

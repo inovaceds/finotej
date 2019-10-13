@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:rotation="105"
-        android:scaleType="fitStart"
+        android:scaleType="fitCenter"
         android:src="@drawable/panel_pp"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:background="@drawable/fynocore_pp_menu_items_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircle="@id/fragment_fynocore_terminations_menu_panel_image"
-        app:layout_constraintCircleAngle="145"
+        app:layout_constraintCircleAngle="155"
         app:layout_constraintCircleRadius="@dimen/fynocore_fragment_terminations_panel_termination_radius"
         app:layout_constraintEnd_toEndOf="parent">
 
