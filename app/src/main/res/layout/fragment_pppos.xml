@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fynocore.view.fragments.pp.applications.PPStandsFragment">
+
+    <TextView
+        android:id="@+id/fragment_pp_pos_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos de Venta"
+        android:fontFamily="@font/roboto_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/fynocore_fragment_items_text_size"
+        android:textColor="@color/fynocore_menu_text"
+        android:layout_marginStart="50dp"/>
+
+    <ImageView
+        android:id="@+id/fragment_pp_pos_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/pp_pos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fragment_pp_pos_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
