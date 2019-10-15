@@ -12,6 +12,7 @@ import coil.api.load
 import coil.decode.GifDecoder
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPActivity
 import com.inovaceds.finotej.ui.pdfPreview.PDFPreviewActivity
 import kotlinx.android.synthetic.main.fragment_fynocore_ppdetail.*
 import org.jetbrains.anko.startActivity
@@ -61,6 +62,20 @@ class FynocorePPDetailFragment : Fragment() {
             context?.startActivity<PDFPreviewActivity>(
                 PDFPreviewActivity.DOCUMENT_KEY to DataConfiguration.PP_DOCUMENT,
                 PDFPreviewActivity.PRODUCT_KEY to DataConfiguration.FYNOCORE_PRODUCT
+            )
+        }
+
+        fragment_fynocore_aplications_option.setOnClickListener {
+            (activity as FynocorePPActivity).changeToOtherOption(
+                this,
+                FynocorePPApplicationsFragment()
+            )
+        }
+
+        fragment_fynocore_detail_panel_terminations_option.setOnClickListener {
+            (activity as FynocorePPActivity).changeToOtherOption(
+                this,
+                FynocorePPTerminationsFragment()
             )
         }
     }
