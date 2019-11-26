@@ -55,7 +55,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/fragment_fynocore_terminations_pp_option"
+        android:id="@+id/fragment_fynocore_terminations_ppsb_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/fynocore_ppsb_menu_items_background"

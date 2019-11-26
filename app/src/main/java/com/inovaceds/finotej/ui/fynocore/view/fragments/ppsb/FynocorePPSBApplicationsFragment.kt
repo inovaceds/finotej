@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPSBActivity
 import com.inovaceds.finotej.ui.fynocore.view.adapters.PPSBApplicationsPagerAdapter
 import com.inovaceds.finotej.ui.pdfPreview.PDFPreviewActivity
 import kotlinx.android.synthetic.main.fragment_fynocore_ppsbapplications.*
@@ -29,9 +30,12 @@ class FynocorePPSBApplicationsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        fragment_fynocore_applications_view_pager.adapter = PPSBApplicationsPagerAdapter(childFragmentManager)
+        fragment_fynocore_applications_view_pager.adapter =
+            PPSBApplicationsPagerAdapter(childFragmentManager)
 
-        fragment_fynocore_applications_view_pager_dots.setupWithViewPager(fragment_fynocore_applications_view_pager)
+        fragment_fynocore_applications_view_pager_dots.setupWithViewPager(
+            fragment_fynocore_applications_view_pager
+        )
 
 
         fragment_fynocore_send_information.setOnClickListener {
@@ -40,6 +44,21 @@ class FynocorePPSBApplicationsFragment : Fragment() {
                 PDFPreviewActivity.PRODUCT_KEY to DataConfiguration.FYNOCORE_PRODUCT
             )
         }
+        fragment_fynocore_applications_pp_option.setOnClickListener {
+            (activity as FynocorePPSBActivity).changeToOtherOption(
+                this,
+                FynocorePPSBDetailFragment()
+            )
+        }
+
+        fragment_fynocore_applications_panel_terminations_option.setOnClickListener {
+            (activity as FynocorePPSBActivity).changeToOtherOption(
+                this,
+                FynocorePPSBTerminationsFragment()
+            )
+        }
+
+
     }
 
 }

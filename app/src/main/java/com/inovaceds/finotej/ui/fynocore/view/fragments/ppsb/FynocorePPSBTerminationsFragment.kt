@@ -9,6 +9,7 @@ import androidx.core.text.HtmlCompat
 import androidx.fragment.app.Fragment
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPSBActivity
 import com.inovaceds.finotej.ui.fynocore.view.adapters.PPSBTerminationsPagerAdapter
 import com.inovaceds.finotej.ui.pdfPreview.PDFPreviewActivity
 import kotlinx.android.synthetic.main.fragment_fynocore_ppsbterminations.*
@@ -50,6 +51,20 @@ class FynocorePPSBTerminationsFragment : Fragment() {
             context?.startActivity<PDFPreviewActivity>(
                 PDFPreviewActivity.DOCUMENT_KEY to DataConfiguration.PP_DOCUMENT,
                 PDFPreviewActivity.PRODUCT_KEY to DataConfiguration.FYNOCORE_PRODUCT
+            )
+        }
+
+        fragment_fynocore_aplications_option.setOnClickListener {
+            (activity as FynocorePPSBActivity).changeToOtherOption(
+                this,
+                FynocorePPSBApplicationsFragment()
+            )
+        }
+
+        fragment_fynocore_terminations_ppsb_option.setOnClickListener {
+            (activity as FynocorePPSBActivity).changeToOtherOption(
+                this,
+                FynocorePPSBDetailFragment()
             )
         }
 
