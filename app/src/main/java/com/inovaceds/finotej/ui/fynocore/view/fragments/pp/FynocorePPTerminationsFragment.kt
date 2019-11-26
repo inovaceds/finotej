@@ -10,6 +10,7 @@ import androidx.core.text.HtmlCompat
 import androidx.fragment.app.Fragment
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.net.DataConfiguration
+import com.inovaceds.finotej.ui.fynocore.view.activities.FynocorePPActivity
 import com.inovaceds.finotej.ui.pdfPreview.PDFPreviewActivity
 import kotlinx.android.synthetic.main.fragment_fynocore_ppterminations.*
 import org.jetbrains.anko.startActivity
@@ -45,6 +46,21 @@ class FynocorePPTerminationsFragment : Fragment() {
                 PDFPreviewActivity.PRODUCT_KEY to DataConfiguration.FYNOCORE_PRODUCT
             )
         }
+
+        fragment_fynocore_aplications_option.setOnClickListener {
+            (activity as FynocorePPActivity).changeToOtherOption(
+                this,
+                FynocorePPApplicationsFragment()
+            )
+        }
+
+        fragment_fynocore_terminations_pp_option.setOnClickListener {
+            (activity as FynocorePPActivity).changeToOtherOption(
+                this,
+                FynocorePPDetailFragment()
+            )
+        }
+
     }
 
 
