@@ -90,10 +90,10 @@
         android:id="@+id/fragment_fynocore_aplications_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fynocore_fragment_detail_applications_termination_margin_start"
         android:layout_marginTop="@dimen/fynocore_fragment_detail_applications_termination_margin_top"
         android:background="@drawable/fynocore_pp_menu_items_background"
         app:layout_constraintStart_toStartOf="@+id/fragment_fynocore_terminations_menu_panel_image"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_fynocore_terminations_menu_panel_image"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -152,9 +152,9 @@
         android:id="@+id/fragment_fynocore_terminations_video_view"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/fynocore_fragment_detail_video_margin"
         android:layout_marginEnd="70dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="@dimen/fynocore_fragment_detail_video_margin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@id/fragment_fynocore_terminations_menu_panel_image"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_terminations_menu_panel_image" />
