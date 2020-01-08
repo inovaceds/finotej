@@ -29,7 +29,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/fynocore_pp_menu_items_background"
         app:layout_constraintTop_toTopOf="@id/fragment_fynocore_applications_menu_panel_image"
-        app:layout_constraintStart_toEndOf="@id/fragment_fynocore_applications_menu_panel_image"
         app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_applications_menu_panel_image">
 
         <TextView
