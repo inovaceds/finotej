@@ -17,7 +17,7 @@ class PPSBTerminationsPagerAdapter(fragmentManager: FragmentManager) : FragmentP
             3 -> TerminationItemFragment.getInstance("Poliforma 3D", R.drawable.ppsb_poliforma)
             4 -> TerminationItemFragment.getInstance("Panel Antiderrapante", R.drawable.ppsb_antiderrapante)
             5 -> TerminationItemFragment.getInstance("Panel FYNOSTONE", R.drawable.ppsb_fynostone)
-            6 -> TerminationItemFragment.getInstance("Panel PPSB", R.drawable.ppsb_ppsb)
+            6 -> TerminationItemFragment.getInstance("Panel PPSB", R.drawable.ppsb_panel)
             else -> Fragment()
         }
     }
