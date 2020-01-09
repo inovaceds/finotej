@@ -18,10 +18,7 @@
         android:id="@+id/fragment_fynocore_detail_menu_panel_image"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:rotation="65"
-        android:scaleType="fitCenter"
-        android:src="@drawable/panel_pp"
-        app:layout_constraintBottom_toTopOf="parent"
+        android:src="@drawable/pp_fynocore"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
