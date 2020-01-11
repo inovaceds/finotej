@@ -15,15 +15,6 @@
     <dimen name="fynocore_fragment_detail_applications_termination_margin_start">10dp</dimen>
     <dimen name="fynocore_fragment_detail_video_margin">20dp</dimen>
 
-    <dimen name="fynocore_fragment_terminations_panel_termination_radius">300dp</dimen>
-    <dimen name="fynocore_fragment_terminations_pp_radius">140dp</dimen>
-    <dimen name="fynocore_fragment_terminations_applications_termination_radius">250dp</dimen>
-
-
-    <dimen name="fynocore_ppsb_fragment_detail_panel_termination_radius">250dp</dimen>
-    <dimen name="fynocore_ppsb_fragment_detail_pp_radius">160dp</dimen>
-    <dimen name="fynocore_ppsb_fragment_detail_applications_termination_radius">400dp</dimen>
-
     <dimen name="activity_cimbracore_items_size">35sp</dimen>
 
     <integer name="send_information_dialog_title_width">500</integer>
