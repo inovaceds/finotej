@@ -26,12 +26,12 @@
 
     <dimen name="activity_cimbracore_items_size">40sp</dimen>
 
-    <integer name="send_information_dialog_title_width">1250</integer>
-    <integer name="send_information_dialog_title_height">700</integer>
-    <dimen name="send_information_dialog_title_text_size">40sp</dimen>
-    <dimen name="send_information_dialog_title_text_hint">35sp</dimen>
-    <dimen name="send_information_dialog_title_text_button">30sp</dimen>
-    <dimen name="send_information_dialog_title_text_send">45sp</dimen>
+    <integer name="send_information_dialog_title_width">600</integer>
+    <integer name="send_information_dialog_title_height">450</integer>
+    <dimen name="send_information_dialog_title_text_size">30sp</dimen>
+    <dimen name="send_information_dialog_title_text_hint">25sp</dimen>
+    <dimen name="send_information_dialog_title_text_button">25sp</dimen>
+    <dimen name="send_information_dialog_title_text_send">30sp</dimen>
 
     <dimen name="items_line_width">10dp</dimen>
 </resources>

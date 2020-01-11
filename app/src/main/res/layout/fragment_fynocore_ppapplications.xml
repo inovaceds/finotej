@@ -13,12 +13,11 @@
         android:scaleType="centerCrop"
         android:src="@drawable/fondo_fynocore_pp_alpha" />
 
-
     <ImageView
         android:id="@+id/fragment_fynocore_applications_menu_panel_image"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
+        android:scaleType="center"
         android:src="@drawable/pp_applications"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

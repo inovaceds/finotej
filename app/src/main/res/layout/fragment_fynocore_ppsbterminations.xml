@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/fynocore_ppsb_menu_items_background"
         app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_terminations_menu_panel_image"
-        app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_terminations_menu_panel_image">
+        app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_terminations_option_plus_icon">
 
         <TextView
             android:layout_width="wrap_content"
@@ -80,11 +80,12 @@
 
 
     <ImageView
+        android:id="@+id/fragment_fynocore_terminations_option_plus_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/mas_ppsb"
         app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_terminations_panel_terminations_option"
-        app:layout_constraintStart_toEndOf="@id/fragment_fynocore_terminations_panel_terminations_option"
+        app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_terminations_menu_panel_image"
         app:layout_constraintTop_toTopOf="@id/fragment_fynocore_terminations_panel_terminations_option" />
 
     <androidx.constraintlayout.widget.ConstraintLayout

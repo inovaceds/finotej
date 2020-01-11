@@ -26,7 +26,7 @@
             android:padding="25dp"
             android:text="X"
             android:textColor="@color/primaryTextColor"
-            android:textSize="35sp"
+            android:textSize="@dimen/send_information_dialog_title_text_hint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
