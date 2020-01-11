@@ -19,6 +19,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/pp_fynocore"
+        android:layout_marginStart="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,11 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/fynocore_pp_menu_items_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintCircle="@id/fragment_fynocore_detail_menu_panel_image"
-        app:layout_constraintCircleAngle="100"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_detail_panel_termination_radius"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="@id/fragment_fynocore_detail_menu_panel_image"
+        app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_detail_menu_panel_image">
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,11 +53,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/fynocore_pp_menu_items_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintCircle="@id/fragment_fynocore_detail_menu_panel_image"
-        app:layout_constraintCircleAngle="145"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_detail_pp_radius"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_detail_panel_terminations_option"
+        app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_aplications_option"
+        app:layout_constraintStart_toEndOf="@id/fragment_fynocore_aplications_option">
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,11 +90,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/fynocore_pp_menu_items_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintCircle="@id/fragment_fynocore_detail_menu_panel_image"
-        app:layout_constraintCircleAngle="215"
-        app:layout_constraintCircleRadius="@dimen/fynocore_fragment_detail_applications_termination_radius"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="@id/fragment_fynocore_detail_menu_panel_image"
+        app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_detail_menu_panel_image">
 
         <TextView
             android:layout_width="wrap_content"
@@ -160,14 +153,11 @@
         android:id="@+id/fragment_fynocore_detail_video_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="50dp"
+        android:layout_margin="15dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_detail_description_text_scrollview"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/fragment_fynocore_detail_menu_panel_image"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_detail_menu_panel_image" />
 
 
