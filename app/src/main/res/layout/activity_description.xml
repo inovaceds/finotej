@@ -29,7 +29,7 @@
             android:textAlignment="center"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_text_size"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +46,7 @@
             android:textAlignment="center"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_text_size"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_description_main_text" />
@@ -64,7 +64,7 @@
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_element_size"
             android:textStyle="bold"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_description_secondary_text" />
@@ -82,7 +82,7 @@
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_element_size"
             android:textStyle="bold"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_description_first_element" />
@@ -100,7 +100,7 @@
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_element_size"
             android:textStyle="bold"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_description_second_element" />
@@ -117,7 +117,7 @@
             android:textAlignment="center"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_text_size"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_description_third_element" />
@@ -131,7 +131,7 @@
             android:text="@string/click_here_to_continue"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/description_text_size"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_description_third_text" />
