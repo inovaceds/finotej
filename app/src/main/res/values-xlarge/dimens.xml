@@ -7,10 +7,6 @@
     <dimen name="fynocore_title_text_size">45sp</dimen>
     <dimen name="fynocore_subtitle_text_size">36sp</dimen>
 
-    <dimen name="fynocore_fragment_panel_termination_radius">230dp</dimen>
-    <dimen name="fynocore_fragment_pp_radius">210dp</dimen>
-    <dimen name="fynocore_fragment_applications_termination_radius">230dp</dimen>
-
     <dimen name="fynocore_fragment_items_text_size">30sp</dimen>
     <dimen name="fynocore_fragment_selected_items_text_size">24sp</dimen>
 
@@ -43,4 +39,6 @@
     <dimen name="send_information_dialog_title_text_hint">40sp</dimen>
     <dimen name="send_information_dialog_title_text_button">27sp</dimen>
     <dimen name="send_information_dialog_title_text_send">50sp</dimen>
+
+    <dimen name="items_line_width">13dp</dimen>
 </resources>
