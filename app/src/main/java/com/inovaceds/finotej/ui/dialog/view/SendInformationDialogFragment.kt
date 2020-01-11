@@ -10,7 +10,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.inovaceds.finotej.R
 import com.inovaceds.finotej.extensions.hide
@@ -20,10 +19,6 @@ import com.inovaceds.finotej.ui.dialog.presentation.SendInformationPresenter
 import com.inovaceds.finotej.ui.dialog.viewModel.SendInformationViewModel
 import kotlinx.android.synthetic.main.fragment_send_information_dialog.*
 
-
-/**
- * A simple [Fragment] subclass.
- */
 class SendInformationDialogFragment : DialogFragment(), SendInformationViewModel {
 
     companion object {
@@ -43,9 +38,17 @@ class SendInformationDialogFragment : DialogFragment(), SendInformationViewModel
         super.onStart()
 
         val width =
-            TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 1000f, resources.displayMetrics)
+            TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP,
+                resources.getInteger(R.integer.send_information_dialog_title_width).toFloat(),
+                resources.displayMetrics
+            )
         val height =
-            TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 500f, resources.displayMetrics)
+            TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP,
+                resources.getInteger(R.integer.send_information_dialog_title_height).toFloat(),
+                resources.displayMetrics
+            )
         dialog?.window?.setLayout(width.toInt(), height.toInt())
 
     }
