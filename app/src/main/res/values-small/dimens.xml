@@ -34,4 +34,6 @@
     <dimen name="fynocore_ppsb_fragment_detail_pp_radius">140dp</dimen>
     <dimen name="fynocore_ppsb_fragment_detail_applications_termination_radius">380dp</dimen>
 
+
+    <dimen name="activity_cimbracore_items_size">20sp</dimen>
 </resources>
