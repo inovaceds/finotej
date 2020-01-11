@@ -32,6 +32,8 @@
     <dimen name="send_information_dialog_title_text_hint">10sp</dimen>
     <dimen name="send_information_dialog_title_text_button">13sp</dimen>
     <dimen name="send_information_dialog_title_text_send">20sp</dimen>
+    <dimen name="send_information_dialog_title_margin">10dp</dimen>
+    <dimen name="send_information_dialog_button_margin">5dp</dimen>
 
     <dimen name="items_line_width">5dp</dimen>
 </resources>
