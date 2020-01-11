@@ -19,10 +19,6 @@
     <dimen name="fynocore_fragment_terminations_pp_radius">130dp</dimen>
     <dimen name="fynocore_fragment_terminations_applications_termination_radius">240dp</dimen>
 
-    <dimen name="fynocore_fragment_applications_panel_termination_radius">240dp</dimen>
-    <dimen name="fynocore_fragment_applications_pp_radius">130dp</dimen>
-    <dimen name="fynocore_fragment_applications_applications_termination_radius">260dp</dimen>
-
     <dimen name="fynocore_ppsb_fragment_detail_panel_termination_radius">210dp</dimen>
     <dimen name="fynocore_ppsb_fragment_detail_pp_radius">120dp</dimen>
     <dimen name="fynocore_ppsb_fragment_detail_applications_termination_radius">330dp</dimen>
