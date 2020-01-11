@@ -36,4 +36,11 @@
 
 
     <dimen name="activity_cimbracore_items_size">20sp</dimen>
+
+    <integer name="send_information_dialog_title_width">500</integer>
+    <integer name="send_information_dialog_title_height">300</integer>
+    <dimen name="send_information_dialog_title_text_size">15sp</dimen>
+    <dimen name="send_information_dialog_title_text_hint">10sp</dimen>
+    <dimen name="send_information_dialog_title_text_button">13sp</dimen>
+    <dimen name="send_information_dialog_title_text_send">20sp</dimen>
 </resources>

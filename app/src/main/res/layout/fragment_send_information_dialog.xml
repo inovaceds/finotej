@@ -30,7 +30,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/fragment_send_information_items_container"
             android:layout_width="0dp"
@@ -48,7 +47,7 @@
                 android:fontFamily="@font/roboto_light"
                 android:text="Enviar Información"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="45sp"
+                android:textSize="@dimen/send_information_dialog_title_text_size"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -64,7 +63,7 @@
                 android:textColor="@color/primaryTextColor"
                 android:textColorHighlight="@color/primaryTextColor"
                 android:textColorHint="@color/primaryTextColor"
-                android:textSize="35sp"
+                android:textSize="@dimen/send_information_dialog_title_text_hint"
                 android:maxLines="1"
                 android:inputType="text"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +81,7 @@
                 android:textColor="@color/primaryTextColor"
                 android:textColorHighlight="@color/primaryTextColor"
                 android:textColorHint="@color/primaryTextColor"
-                android:textSize="35sp"
+                android:textSize="@dimen/send_information_dialog_title_text_hint"
                 android:maxLines="1"
                 android:inputType="textEmailAddress"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +99,7 @@
                 android:paddingBottom="15dp"
                 android:text="Enviar"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="20dp"
+                android:textSize="@dimen/send_information_dialog_title_text_button"
                 android:backgroundTint="@color/fynocore_menu_items_background"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -129,7 +128,7 @@
                 android:text="Información Enviada"
                 android:textColor="@color/primaryTextColor"
                 android:fontFamily="@font/roboto_light"
-                android:textSize="55sp"/>
+                android:textSize="@dimen/send_information_dialog_title_text_send" />
 
             <ImageView
                 android:layout_width="wrap_content"

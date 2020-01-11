@@ -36,4 +36,11 @@
     <dimen name="fynocore_ppsb_fragment_detail_applications_termination_radius">440dp</dimen>
 
     <dimen name="activity_cimbracore_items_size">45sp</dimen>
+
+    <integer name="send_information_dialog_title_width">2000</integer>
+    <integer name="send_information_dialog_title_height">1000</integer>
+    <dimen name="send_information_dialog_title_text_size">45sp</dimen>
+    <dimen name="send_information_dialog_title_text_hint">40sp</dimen>
+    <dimen name="send_information_dialog_title_text_button">27sp</dimen>
+    <dimen name="send_information_dialog_title_text_send">50sp</dimen>
 </resources>
