@@ -43,13 +43,13 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
                     android:text="@string/fynocore_pp_title"
+                    android:textAlignment="center"
                     android:textColor="@color/fynocore_text"
                     android:textSize="@dimen/fynocore_menu_items_text_size"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -71,6 +71,7 @@
                     android:text="@string/fynocore_ppsb_title"
                     android:textColor="@color/fynocore_text"
                     android:textSize="@dimen/fynocore_menu_items_text_size"
+                    android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -261,7 +262,6 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
-
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -277,7 +277,8 @@
                             android:textSize="@dimen/description_text_size"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="@string/decopanel_description_first" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
