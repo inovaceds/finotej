@@ -23,6 +23,10 @@ class FynocorePPActivity : AppCompatActivity() {
             finish()
         }
 
+        activity_fynocore_fynotej_container.setOnClickListener {
+            finish()
+        }
+
     }
 
     fun changeOptionFragment(fragment: Fragment, tag: String) {
