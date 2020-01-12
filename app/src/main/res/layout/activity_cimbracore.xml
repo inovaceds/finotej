@@ -10,12 +10,15 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:src="@drawable/logo_cimbracore"
+        android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/activity_cimbracore_items_container"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_cimbracore_items_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +34,7 @@
             android:fontFamily="@font/roboto_light"
             android:text="Resumen Cimbracore"
             android:textColor="@color/primaryTextColor"
-            android:textSize="35sp"
+            android:textSize="@dimen/activity_cimbracore_items_size"
             app:layout_constraintBottom_toTopOf="@+id/activity_cimbracore_tech_doc"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +48,7 @@
             android:fontFamily="@font/roboto_light"
             android:text="Ficha Técnica Cimbracore"
             android:textColor="@color/primaryTextColor"
-            android:textSize="35sp"
+            android:textSize="@dimen/activity_cimbracore_items_size"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

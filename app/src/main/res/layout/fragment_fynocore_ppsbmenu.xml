@@ -13,12 +13,9 @@
         android:scaleType="centerCrop"
         android:src="@drawable/fondo_fynocore_ppsb" />
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,11 +37,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fynocore_ppsb_menu_items_background"
-            app:layout_constraintCircle="@id/fragment_fynocore_menu_panel_image"
-            app:layout_constraintCircleAngle="45"
-            app:layout_constraintCircleRadius="@dimen/fynocore_fragment_panel_termination_radius"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintTop_toTopOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintVertical_bias="0.05">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -68,11 +64,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fynocore_ppsb_menu_items_background"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintCircle="@id/fragment_fynocore_menu_panel_image"
-            app:layout_constraintCircleAngle="110"
-            app:layout_constraintCircleRadius="@dimen/fynocore_fragment_pp_radius"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_aplications_option"
+            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_aplications_option"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_panel_terminations_option"
+            app:layout_constraintVertical_bias="0.65">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -98,11 +94,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fynocore_ppsb_menu_items_background"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintCircle="@id/fragment_fynocore_menu_panel_image"
-            app:layout_constraintCircleAngle="230"
-            app:layout_constraintCircleRadius="@dimen/fynocore_fragment_applications_termination_radius"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toStartOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintTop_toTopOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintVertical_bias="0.85">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -131,7 +126,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:src="@drawable/f_fynocore"
+        android:src="@drawable/f_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
