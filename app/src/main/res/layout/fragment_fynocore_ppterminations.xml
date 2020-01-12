@@ -17,7 +17,6 @@
         android:id="@+id/fragment_fynocore_terminations_menu_panel_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:src="@drawable/pp_terminations_panel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -158,7 +157,7 @@
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="@dimen/fynocore_fragment_detail_video_margin"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@id/fragment_fynocore_terminations_menu_panel_image"
+        app:layout_constraintStart_toStartOf="@id/fragment_fynocore_aplications_option"
         app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_terminations_menu_panel_image" />
 
 
