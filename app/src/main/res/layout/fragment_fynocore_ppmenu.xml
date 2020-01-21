@@ -13,13 +13,15 @@
         android:scaleType="centerCrop"
         android:src="@drawable/fondo_fynocore_pp_alpha" />
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
 
         <ImageView
             android:id="@+id/fragment_fynocore_menu_panel_image"
@@ -37,8 +39,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fynocore_pp_menu_items_background"
-            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_menu_panel_image"
             app:layout_constraintEnd_toEndOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_menu_panel_image"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
@@ -64,8 +66,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/fynocore_pp_menu_items_background"
             app:layout_constraintBottom_toTopOf="@id/fragment_fynocore_aplications_option"
-            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_aplications_option"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/fragment_fynocore_aplications_option"
             app:layout_constraintTop_toBottomOf="@id/fragment_fynocore_panel_terminations_option"
             app:layout_constraintVertical_bias="0.8">
 
@@ -93,9 +95,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fynocore_pp_menu_items_background"
-            app:layout_constraintStart_toStartOf="@id/fragment_fynocore_menu_panel_image"
+            app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_menu_panel_image"
             app:layout_constraintEnd_toStartOf="@id/fragment_fynocore_menu_panel_image"
-            app:layout_constraintBottom_toBottomOf="@id/fragment_fynocore_menu_panel_image">
+            app:layout_constraintStart_toStartOf="@id/fragment_fynocore_menu_panel_image">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -118,7 +120,6 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     <ImageView
         android:layout_width="wrap_content"
